@@ -54,6 +54,6 @@ $ python ioThinx-4510-45MR-2606-pub.py -t 00 -v 1
 ![](https://i.imgur.com/dUTjdns.png)
 
 ## To-do
-- [x] Develop a real-time dashboard to monitor and control ioThinx with Node.js, MQTT, and Socket.io.
+- [x] Develop a real-time dashboard to monitor ~~and control~~ ioThinx with Node.js, MQTT, and Socket.io.
 - [ ] Python scripts for other 45MR modules.
 
