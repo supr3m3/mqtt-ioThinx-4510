@@ -46,7 +46,7 @@ MQTT_KEEPALIVE = <value> # default: 30s
 MQTT_TOPIC = 'ioThinx_4510/#' # Subscribe to all messages from ioThinx 4510
 ```
 
-This publisher script will change the ```D0-00``` value to ```1``` on the ioThinx-4510 (45MR-2600). 
+This publisher script will change the ```D0-00``` value to ```1``` on the ioThinx-4510 (45MR-2606). 
 
 ```
 $ python ioThinx-4510-45MR-2606-pub.py -t 00 -v 1

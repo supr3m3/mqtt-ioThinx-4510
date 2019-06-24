@@ -32,7 +32,6 @@ client.on('message', function(topic, message) {
         'topic': String(topic), 
         'payload': JSON.parse(message.toString())
     }); 
-        //'payload':String(message.toString())});
 });
 
 http.createServer(function(request, response) {
@@ -57,7 +56,6 @@ http.createServer(function(request, response) {
         response.end();
         return;
       }
-
       response.writeHead(200);
       response.write(file, "binary");
       response.end();
