@@ -4,7 +4,7 @@
   "description": "Description ",
   "main": "app.js",
   "dependencies": {
-    "mqtt": "^2.18.8",
+    "mqtt": "^4.3.7",
     "mqtt-packet": "^6.1.2",
     "socket.io": "^2.2.0"
   },
